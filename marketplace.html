@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFarm - Marketplace</title>
+    <link rel="stylesheet" href="style-EIVh3YnBIjf7OsfChQtwma3WzOJUeP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <h1><i class="fa fa-leaf"></i> Smart<span>Farm</span></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="specialists.html">Specialists</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+        </ul>
+    </nav>
+    <div class="user-icon">
+        <i class="fas fa-user"></i>
+        <div class="user-dropdown">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+</header>
+<main class="content marketplace-content">
+    <h2>Farmer's Marketplace</h2>
+    <p class="marketplace-intro">Get loans to grow your farm and advertise your produce to potential buyers</p>
+
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="loans"><i class="fas fa-dollar-sign"></i> Farm Loans</button>
+            <button class="tab-btn" data-tab="produce"><i class="fas fa-leaf"></i> Farm Produce</button>
+        </div>
+
+        <div class="tab-content active" id="loans-content">
+            <h3>Available Loan Options</h3>
+            <div class="loans-grid">
+                <div class="loan-card">
+                    <h4>Equipment Financing</h4>
+                    <p class="loan-description">For purchasing new farming equipment</p>
+                    <div class="loan-details">
+                        <div class="loan-detail">
+                            <span class="detail-label">Interest Rate:</span>
+                            <span class="detail-value">8.5% p.a.</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Term:</span>
+                            <span class="detail-value">Up to 5 years</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Amount:</span>
+                            <span class="detail-value">$5,000 - $50,000</span>
+                        </div>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+
+                <div class="loan-card">
+                    <h4>Crop Production Loan</h4>
+                    <p class="loan-description">For seeds, fertilizers, and other inputs</p>
+                    <div class="loan-details">
+                        <div class="loan-detail">
+                            <span class="detail-label">Interest Rate:</span>
+                            <span class="detail-value">7.0% p.a.</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Term:</span>
+                            <span class="detail-value">Up to 2 years</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Amount:</span>
+                            <span class="detail-value">$2,000 - $25,000</span>
+                        </div>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+
+                <div class="loan-card wide-card">
+                    <h4>Farm Expansion Loan</h4>
+                    <p class="loan-description">For land purchase or major infrastructure development</p>
+                    <div class="loan-details">
+                        <div class="loan-detail">
+                            <span class="detail-label">Interest Rate:</span>
+                            <span class="detail-value">6.5% p.a.</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Term:</span>
+                            <span class="detail-value">Up to 10 years</span>
+                        </div>
+                        <div class="loan-detail">
+                            <span class="detail-label">Loan Amount:</span>
+                            <span class="detail-value">$25,000 - $250,000</span>
+                        </div>
+                    </div>
+                    <button class="apply-btn">Apply Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content" id="produce-content">
+            <div class="produce-header">
+                <h3>Available Farm Produce</h3>
+                <button class="list-produce-btn">List Your Produce</button>
+            </div>
+
+            <div class="produce-grid">
+                <div class="produce-card">
+                    <div class="produce-image">
+                        <img src="placeholder.jpg" alt="Organic Tomatoes">
+                        <span class="organic-badge">Organic</span>
+                    </div>
+                    <h4>Organic Tomatoes</h4>
+                    <p class="farmer-name">John's Farm</p>
+                    <div class="produce-details">
+                        <div class="produce-detail">
+                            <span class="detail-label">Price:</span>
+                            <span class="detail-value">$2.50/kg</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Quantity:</span>
+                            <span class="detail-value">500 kg available</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Nairobi County</span>
+                        </div>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+
+                <div class="produce-card">
+                    <div class="produce-image">
+                        <img src="placeholder.jpg" alt="Fresh Maize">
+                    </div>
+                    <h4>Fresh Maize</h4>
+                    <p class="farmer-name">Green Valley Farm</p>
+                    <div class="produce-details">
+                        <div class="produce-detail">
+                            <span class="detail-label">Price:</span>
+                            <span class="detail-value">$1.20/kg</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Quantity:</span>
+                            <span class="detail-value">2 tons available</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Nakuru County</span>
+                        </div>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+
+                <div class="produce-card">
+                    <div class="produce-image">
+                        <img src="placeholder.jpg" alt="Organic Kale">
+                        <span class="organic-badge">Organic</span>
+                    </div>
+                    <h4>Organic Kale</h4>
+                    <p class="farmer-name">Sunrise Organics</p>
+                    <div class="produce-details">
+                        <div class="produce-detail">
+                            <span class="detail-label">Price:</span>
+                            <span class="detail-value">$3.00/kg</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Quantity:</span>
+                            <span class="detail-value">200 kg available</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Kiambu County</span>
+                        </div>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+
+                <div class="produce-card">
+                    <div class="produce-image">
+                        <img src="placeholder.jpg" alt="Potatoes">
+                    </div>
+                    <h4>Potatoes</h4>
+                    <p class="farmer-name">Highland Produce</p>
+                    <div class="produce-details">
+                        <div class="produce-detail">
+                            <span class="detail-label">Price:</span>
+                            <span class="detail-value">$0.90/kg</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Quantity:</span>
+                            <span class="detail-value">1.5 tons available</span>
+                        </div>
+                        <div class="produce-detail">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Nyandarua County</span>
+                        </div>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2025 SmartFarm. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+<!-- JavaScript file -->
+<script src="main.js"></script>
+</body>
+</html>
